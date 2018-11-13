@@ -1,13 +1,17 @@
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=9c58f077-ec65-4d1e-813a-c5607d88e067&fontids=5618548");
+/* @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=9c58f077-ec65-4d1e-813a-c5607d88e067&fontids=5618548"); */
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 @font-face {
-    font-family: "Trade Gothic Next LT W04 Rg";
-    src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix");
-    src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix") format("eot"), url("../fonts/5618548/cfe8841a-8eaf-4ab8-8c3e-cf101bceb550.woff2") format("woff2"), url("../fonts/5618548/9f9d7abe-6770-4f86-9828-c39d13703317.woff") format("woff"), url("../fonts/5618548/79108939-4e67-41f8-b26b-ab9ce6e4eb0e.ttf") format("truetype");
+    /* font-family: "Trade Gothic Next LT W04 Rg"; */
+    font-family: 'Lato', sans-serif;
+    /* src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix"); */
+    /* src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix") format("eot"), url("../fonts/5618548/cfe8841a-8eaf-4ab8-8c3e-cf101bceb550.woff2") format("woff2"), url("../fonts/5618548/9f9d7abe-6770-4f86-9828-c39d13703317.woff") format("woff"), url("../fonts/5618548/79108939-4e67-41f8-b26b-ab9ce6e4eb0e.ttf") format("truetype"); */
 }
 
 body {
-    font-family: "Trade Gothic Next LT W04 Rg";
+    /* font-family: "Trade Gothic Next LT W04 Rg"; */
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 100px;
