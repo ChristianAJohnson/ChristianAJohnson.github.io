@@ -1,17 +1,24 @@
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=9c58f077-ec65-4d1e-813a-c5607d88e067&fontids=5618548");
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 @font-face {
-    font-family: "Trade Gothic Next LT W04 Rg";
-    src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix");
-    src: url("../fonts/5618548/547207c7-2d7f-43a8-bbe0-e18b78b1e26a.eot?#iefix") format("eot"), url("../fonts/5618548/cfe8841a-8eaf-4ab8-8c3e-cf101bceb550.woff2") format("woff2"), url("../fonts/5618548/9f9d7abe-6770-4f86-9828-c39d13703317.woff") format("woff"), url("../fonts/5618548/79108939-4e67-41f8-b26b-ab9ce6e4eb0e.ttf") format("truetype");
+    font-family: 'Lato', sans-serif;
 }
 
 body {
-    font-family: "Trade Gothic Next LT W04 Rg";
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
     overflow-x: hidden;
+    
 }
 
 body.start {
@@ -48,7 +55,7 @@ header {
     height: 50px;
     line-height: 50px;
     text-transform: uppercase;
-    padding-left: 15px;
+    padding-left: 0px;
     font-size: 20px;
     background: #fff;
     color: #000;
@@ -276,6 +283,8 @@ body.videoopen {
 .start #navigation {
     display: -webkit-flex;
     display: flex;
+    
+    
 }
 
 #navigation {
@@ -320,9 +329,9 @@ body.videoopen {
     font-size: 24px;
 }
 
-#navigation .startInteractive {
+/* #navigation .startInteractive {
     cursor: pointer;
-}
+} */
 
 #navigation .projects {
     background: #ff1400;
@@ -340,6 +349,7 @@ body.videoopen {
 
 #navigation .info {
     background: #004153;
+    /* color: rgb(165, 19, 19); */
     color: #fff;
 }
 
