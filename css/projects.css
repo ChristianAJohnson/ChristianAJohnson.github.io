@@ -149,78 +149,6 @@ table tr td:first-child {
     width: 100%;
 }
 
-.sppb-col,
-.sppb-col-auto,
-.sppb-col-lg,
-.sppb-col-lg-1,
-.sppb-col-lg-10,
-.sppb-col-lg-11,
-.sppb-col-lg-12,
-.sppb-col-lg-2,
-.sppb-col-lg-3,
-.sppb-col-lg-4,
-.sppb-col-lg-5,
-.sppb-col-lg-6,
-.sppb-col-lg-7,
-.sppb-col-lg-8,
-.sppb-col-lg-9,
-.sppb-col-lg-auto,
-.sppb-col-md,
-.sppb-col-md-1,
-.sppb-col-md-10,
-.sppb-col-md-11,
-.sppb-col-md-12,
-.sppb-col-md-2,
-.sppb-col-md-3,
-.sppb-col-md-4,
-.sppb-col-md-5,
-.sppb-col-md-6,
-.sppb-col-md-7,
-.sppb-col-md-8,
-.sppb-col-md-9,
-.sppb-col-md-auto,
-.sppb-col-sm,
-.sppb-col-sm-1,
-.sppb-col-sm-10,
-.sppb-col-sm-11,
-.sppb-col-sm-12,
-.sppb-col-sm-2,
-.sppb-col-sm-3,
-.sppb-col-sm-4,
-.sppb-col-sm-5,
-.sppb-col-sm-6,
-.sppb-col-sm-7,
-.sppb-col-sm-8,
-.sppb-col-sm-9,
-.sppb-col-sm-auto,
-.sppb-col-xl,
-.sppb-col-xl-1,
-.sppb-col-xl-10,
-.sppb-col-xl-11,
-.sppb-col-xl-12,
-.sppb-col-xl-2,
-.sppb-col-xl-3,
-.sppb-col-xl-4,
-.sppb-col-xl-5,
-.sppb-col-xl-6,
-.sppb-col-xl-7,
-.sppb-col-xl-8,
-.sppb-col-xl-9,
-.sppb-col-xl-auto,
-.sppb-col-xs-1,
-.sppb-col-xs-10,
-.sppb-col-xs-11,
-.sppb-col-xs-12,
-.sppb-col-xs-2,
-.sppb-col-xs-3,
-.sppb-col-xs-4,
-.sppb-col-xs-5,
-.sppb-col-xs-6,
-.sppb-col-xs-7,
-.sppb-col-xs-8,
-.sppb-col-xs-9 {
-    min-height: 0;
-}
 
 body #ca_banner {
     border: 0 none !important;
@@ -451,9 +379,24 @@ body.projects {
 }
 
 ul.rails {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
     list-style-type: square;
 }
 
+ul.ship{
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    /* list-style-type: disc; */
+}
+
+ul.music{
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    /* border-style: dotted; */
+}
 
 .projectListFirstRow {
     height: 250px;
