@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 40px;
     padding-bottom: 0px;
     padding-left: 0px;
@@ -450,6 +450,11 @@ body.projects {
     padding-bottom: 0;
 }
 
+ul.rails {
+    list-style-type: square;
+}
+
+
 .projectListFirstRow {
     height: 250px;
     display: flex;
@@ -488,78 +493,6 @@ body.projects {
     display: inline-block;
 }
 
-.projectListFullScreen .sppb-row-container .sppb-col,
-.projectListFullScreen .sppb-row-container .sppb-col-auto,
-.projectListFullScreen .sppb-row-container .sppb-col-lg,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-1,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-10,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-11,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-12,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-2,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-3,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-4,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-5,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-6,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-7,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-8,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-9,
-.projectListFullScreen .sppb-row-container .sppb-col-lg-auto,
-.projectListFullScreen .sppb-row-container .sppb-col-md,
-.projectListFullScreen .sppb-row-container .sppb-col-md-1,
-.projectListFullScreen .sppb-row-container .sppb-col-md-10,
-.projectListFullScreen .sppb-row-container .sppb-col-md-11,
-.projectListFullScreen .sppb-row-container .sppb-col-md-12,
-.projectListFullScreen .sppb-row-container .sppb-col-md-2,
-.projectListFullScreen .sppb-row-container .sppb-col-md-3,
-.projectListFullScreen .sppb-row-container .sppb-col-md-4,
-.projectListFullScreen .sppb-row-container .sppb-col-md-5,
-.projectListFullScreen .sppb-row-container .sppb-col-md-6,
-.projectListFullScreen .sppb-row-container .sppb-col-md-7,
-.projectListFullScreen .sppb-row-container .sppb-col-md-8,
-.projectListFullScreen .sppb-row-container .sppb-col-md-9,
-.projectListFullScreen .sppb-row-container .sppb-col-md-auto,
-.projectListFullScreen .sppb-row-container .sppb-col-sm,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-1,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-10,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-11,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-12,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-2,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-3,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-4,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-5,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-6,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-7,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-8,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-9,
-.projectListFullScreen .sppb-row-container .sppb-col-sm-auto,
-.projectListFullScreen .sppb-row-container .sppb-col-xl,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-1,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-10,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-11,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-12,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-2,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-3,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-4,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-5,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-6,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-7,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-8,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-9,
-.projectListFullScreen .sppb-row-container .sppb-col-xl-auto,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-1,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-10,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-11,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-12,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-2,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-3,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-4,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-5,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-6,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-7,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-8,
-.projectListFullScreen .sppb-row-container .sppb-col-xs-9 {
-    min-height: 0;
-}
 
 .projectListFinalRow {
     height: 250px;
@@ -643,78 +576,7 @@ body.slideopen {
     height: auto;
 }
 
-.projectssub .sppb-col,
-.projectssub .sppb-col-auto,
-.projectssub .sppb-col-lg,
-.projectssub .sppb-col-lg-1,
-.projectssub .sppb-col-lg-10,
-.projectssub .sppb-col-lg-11,
-.projectssub .sppb-col-lg-12,
-.projectssub .sppb-col-lg-2,
-.projectssub .sppb-col-lg-3,
-.projectssub .sppb-col-lg-4,
-.projectssub .sppb-col-lg-5,
-.projectssub .sppb-col-lg-6,
-.projectssub .sppb-col-lg-7,
-.projectssub .sppb-col-lg-8,
-.projectssub .sppb-col-lg-9,
-.projectssub .sppb-col-lg-auto,
-.projectssub .sppb-col-md,
-.projectssub .sppb-col-md-1,
-.projectssub .sppb-col-md-10,
-.projectssub .sppb-col-md-11,
-.projectssub .sppb-col-md-12,
-.projectssub .sppb-col-md-2,
-.projectssub .sppb-col-md-3,
-.projectssub .sppb-col-md-4,
-.projectssub .sppb-col-md-5,
-.projectssub .sppb-col-md-6,
-.projectssub .sppb-col-md-7,
-.projectssub .sppb-col-md-8,
-.projectssub .sppb-col-md-9,
-.projectssub .sppb-col-md-auto,
-.projectssub .sppb-col-sm,
-.projectssub .sppb-col-sm-1,
-.projectssub .sppb-col-sm-10,
-.projectssub .sppb-col-sm-11,
-.projectssub .sppb-col-sm-12,
-.projectssub .sppb-col-sm-2,
-.projectssub .sppb-col-sm-3,
-.projectssub .sppb-col-sm-4,
-.projectssub .sppb-col-sm-5,
-.projectssub .sppb-col-sm-6,
-.projectssub .sppb-col-sm-7,
-.projectssub .sppb-col-sm-8,
-.projectssub .sppb-col-sm-9,
-.projectssub .sppb-col-sm-auto,
-.projectssub .sppb-col-xl,
-.projectssub .sppb-col-xl-1,
-.projectssub .sppb-col-xl-10,
-.projectssub .sppb-col-xl-11,
-.projectssub .sppb-col-xl-12,
-.projectssub .sppb-col-xl-2,
-.projectssub .sppb-col-xl-3,
-.projectssub .sppb-col-xl-4,
-.projectssub .sppb-col-xl-5,
-.projectssub .sppb-col-xl-6,
-.projectssub .sppb-col-xl-7,
-.projectssub .sppb-col-xl-8,
-.projectssub .sppb-col-xl-9,
-.projectssub .sppb-col-xl-auto,
-.projectssub .sppb-col-xs-1,
-.projectssub .sppb-col-xs-10,
-.projectssub .sppb-col-xs-11,
-.projectssub .sppb-col-xs-12,
-.projectssub .sppb-col-xs-2,
-.projectssub .sppb-col-xs-3,
-.projectssub .sppb-col-xs-4,
-.projectssub .sppb-col-xs-5,
-.projectssub .sppb-col-xs-6,
-.projectssub .sppb-col-xs-7,
-.projectssub .sppb-col-xs-8,
-.projectssub .sppb-col-xs-9 {
-    min-height: 0;
-}
+
 
 .bottom {
     align-items: flex-end;
