@@ -382,12 +382,16 @@ ul.rails {
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
+    width: 300px;
+    height: 50px;
 }
 
 ul.ship{
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
+    width: 300px;
+    height: 50px;
     /* list-style-type: disc; */
 }
 
@@ -395,6 +399,8 @@ ul.music{
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
+    width: 300px;
+    height: 50px;
     /* border-style: dotted; */
 }
 
