@@ -378,6 +378,21 @@ body.projects {
     padding-bottom: 0;
 }
 
+ul a:link{
+color: lightblue;
+/* color: purple;  */
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
+ul a:visited{
+color: lightblue; 
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
 ul.rails {
     border: 2px solid #ffffff;;
     border-radius: 16px;
