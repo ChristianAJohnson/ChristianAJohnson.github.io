@@ -409,7 +409,7 @@ ul.rails-github {
     height: 50px;
 }
 
-ul.ship-demo{
+ul.ship-demo {
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
@@ -418,7 +418,7 @@ ul.ship-demo{
     /* list-style-type: disc; */
 }
 
-ul.ship-github{
+ul.ship-github {
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
@@ -427,7 +427,7 @@ ul.ship-github{
     /* list-style-type: disc; */
 }
 
-ul.music-demo{
+ul.music-demo {
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
@@ -436,7 +436,7 @@ ul.music-demo{
     /* border-style: dotted; */
 }
 
-ul.music-github{
+ul.music-github {
     border: 2px solid #ffffff;;
     border-radius: 16px;
     list-style-type: square;
