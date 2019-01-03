@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="icon" href="./images/favicon.ico" type="image/png" sizes="16x16">
+    
 </head>
 
 <body class="projects">
+    <script type="text/javascript" src="js/projects.js"></script>
     <!-- <div class="whiteBG"></div> -->
     
     <header id="header" class="clearfix">
@@ -28,24 +30,35 @@
                 Web Development Projects
                 <ul>
                     <li>Rails Blog App</li>
-                        <ul>
-                            <li>Demo</li>
+                        <ul class="rails-demo" style="cursor: pointer;" onclick="window.location='https://rails-blog-app-caj.herokuapp.com/';" onmouseover="changeColor('rails-demo')" onmouseout="changeBack('rails-demo')">
+                           <li>Demo</li>
+                        </ul>
+                        <br>
+                        <ul class="rails-github" style="cursor: pointer;" onclick="window.location='https://github.com/ChristianAJohnson/RailsBlogApp';" onmouseover="changeColor('rails-github')" onmouseout="changeBack('rails-github')">
                             <li>Github</li>
                         </ul>
+                        <br>
                     <li>Ship Project App</li>
-                        <ul>
+                        <ul class="ship-demo" style="cursor: pointer;" onclick="window.location='https://shipped-project-caj.herokuapp.com/';" onmouseover="changeColor('ship-demo')" onmouseout="changeBack('ship-demo')">
                             <li>Demo</li>
+                        </ul>
+                        <br>
+                         <ul class="ship-github" style="cursor: pointer;" onclick="window.location='https://github.com/ChristianAJohnson/shipped-project';" onmouseover="changeColor('ship-github')" onmouseout="changeBack('ship-github')">
                             <li>Github</li>
                         </ul>
+                        <br>
                     <li>Music Match App</li>
-                        <ul>
+                        <ul class="music-demo" style="cursor: pointer;" onclick="window.location='https://music-match-caj.herokuapp.com/';" onmouseover="changeColor('music-demo')" onmouseout="changeBack('music-demo')">
                             <li>Demo</li>
+                        </ul>
+                        <br>
+                         <ul class="music-github" style="cursor: pointer;" onclick="window.location='https://github.com/ChristianAJohnson/MusicMatch';" onmouseover="changeColor('music-github')" onmouseout="changeBack('music-github')">
                             <li>Github</li>
                         </ul>
                 </ul>
             </span>
         </div>
-    </nav>
+    <!-- </nav> -->
 
 </body>
 
