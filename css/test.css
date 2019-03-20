@@ -102,6 +102,82 @@ p:last-child {
     line-height: 1;
 }
 
+#headline {
+    font-size: 50px;
+    margin-top: 1in;
+    margin-left: 20px;
+    padding-left: 2in;
+    padding-right: 15px;
+    padding-bottom: 1.5in;
+}
+
+ul a:link{
+color: lightblue;
+/* color: purple;  */
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
+ul a:visited{
+color: lightblue; 
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
+ul.rails-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+}
+
+ul.rails-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+}
+
+ul.ship-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* list-style-type: disc; */
+}
+
+ul.ship-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* list-style-type: disc; */
+}
+
+ul.music-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* border-style: dotted; */
+}
+
+ul.music-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* border-style: dotted; */
+}
+
 a,
 a:hover,
 a:active,
@@ -446,6 +522,7 @@ body.videoopen {
 
 body.projects {
     background: #ff1400;
+    color: #fff;
     padding-bottom: 0;
 }
 

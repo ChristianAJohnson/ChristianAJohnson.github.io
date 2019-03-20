@@ -378,6 +378,15 @@ body.projects {
     padding-bottom: 0;
 }
 
+#headline {
+    font-size: 50px;
+    margin-top: 1in;
+    margin-left: 20px;
+    padding-left: 2in;
+    padding-right: 15px;
+    padding-bottom: 1.5in;
+}
+
 ul a:link{
 color: lightblue;
 /* color: purple;  */
@@ -446,7 +455,7 @@ ul.music-github {
 }
 
 #test {
-    : 10px;
+    font-size: 20px;
     border: 2px solid #ffffff;
     border-radius: 16px;
     list-style-type: square;
