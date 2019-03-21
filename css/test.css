@@ -1630,7 +1630,7 @@ body.relax {
 }
 
 /* Modal Content */
-.modal-content {
+.project-modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -1661,19 +1661,19 @@ body.relax {
 }
 
 /* The Close Button */
-.close {
+.projectclose {
   color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.projectclose:hover,
+.projectclose:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
 
-.modal-body {padding: 2px 16px;}
+.project-modal-body {padding: 2px 16px;}
