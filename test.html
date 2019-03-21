@@ -30,7 +30,7 @@
                 <span style="opacity: 1;">Projects</span>
             </div>
             <div class="quarter">
-                <div class="horiHalf info startInteractive" style="cursor: pointer;" onclick="window.location='info.html';">
+                <div class="horiHalf info startInteractive" style="cursor: pointer;" onclick="myInfo.style.display = 'block';">
                     <span style="opacity: 1;">About Me</span>
                 </div>
                 <div class="horiHalf contact startInteractive" style="cursor: pointer;" onclick="window.location='';">
@@ -61,18 +61,15 @@
         </nav>
 
         <div id="myProjects">
-        
             <!-- Modal content -->
             <div class="project-modal-content">
                 <div class="projectsBody">
                     <div class="project-modal-body">
-                        
                         <span class="projectclose"> &times; </span>
-                        
                         <div class="quarter projects startInteractive">
                             <span style="opacity: 1;">
-                                <div id="headline"> PROJECTS </div>
-                                Web Development Projects
+                                <div id="headline"> Web Development Projects </div>
+                                <!-- Web Development Projects -->
                                 <ul>
                                     <li>Rails Blog App</li>
                                     <ul class="rails-demo" style="cursor: pointer;"
@@ -118,6 +115,29 @@
                     </div>
                 </div>
             </div>    
+        </div> 
+        
+        <div id="myInfo">
+            <!-- Modal content -->
+            <div class="info-modal-content">
+                <div class="infoBody">
+                    <div class="info-modal-body">
+                        <span class="infoclose"> &times; </span>
+                        <div class="quarter projects startInteractive">
+                            <span style="opacity: 1;">
+                                <div id="headline"> About Me </div>
+                                <div>
+                                    My name is Christian Johnson and I am a full stack developer, with experience in HTML5/CSS3,
+                                    SASS, JS, Ruby, Ruby on
+                                    Rails and Sinatra.
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </body>
     <script type="text/javascript" src="js/test.js"></script>
