@@ -43,6 +43,18 @@ window.onclick = function (event) {
     }
 }
 
+var contactmodal = document.getElementById('myContact');
+var contactspan = document.getElementsByClassName("contactclose")[0];
+
+contactspan.onclick = function () {
+    contactmodal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == contactmodal) {
+        contactmodal.style.display = "none";
+    }
+}
 
 
 
