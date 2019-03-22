@@ -1680,6 +1680,7 @@ body.imprint {
 .projectclose:focus {
   color: #000;
   text-decoration: none;
+  font-size: 45px;
   cursor: pointer;
 }
 
@@ -1744,6 +1745,7 @@ body.imprint {
 .infoclose:focus {
   color: #000;
   text-decoration: none;
+  font-size: 45px;
   cursor: pointer;
 }
 
@@ -1806,6 +1808,7 @@ body.imprint {
 .skillsclose:focus {
   color: #000;
   text-decoration: none;
+  font-size: 45px;
   cursor: pointer;
 }
 
@@ -1870,8 +1873,15 @@ body.imprint {
 .contactclose:focus {
   color: #000;
   text-decoration: none;
+  font-size: 45px;
   cursor: pointer;
 }
 
 
 .contact-modal-body {padding: 2px 16px;}
+
+.contact-icons
+{
+    width:  34px;
+    height: 34px;
+}
