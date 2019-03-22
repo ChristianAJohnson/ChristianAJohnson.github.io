@@ -1755,7 +1755,7 @@ body.imprint {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 200px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -1812,8 +1812,32 @@ body.imprint {
   cursor: pointer;
 }
 
-
 .skills-modal-body {padding: 2px 16px;}
+
+/* .skills-icons
+{
+    width:  128px;
+    height: 181px;
+} */
+
+.skills-icons
+{
+    width: 128px;
+    height: 128px;
+
+}
+
+svg
+{
+    width: 128px;
+    height: 128px;  
+}
+
+.skills-icons-positions
+{
+    padding-left: 5em;
+}
+
 
 /* The Modal (background) */
 #myContact {
