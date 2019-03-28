@@ -1824,7 +1824,6 @@ body.imprint {
 {
     width: 128px;
     height: 128px;
-
 }
 
 svg
@@ -1838,6 +1837,27 @@ svg
     padding-left: 5em;
 }
 
+.skills-icons-text
+{
+    font-size: 15px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+span.skills-sinatra-text
+{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #000;
+  
+}
+
+/* .skills-sinatra
+{
+    margin-top: -20px;
+    padding-left: 4.5in;
+} */
 
 /* The Modal (background) */
 #myContact {
@@ -1866,7 +1886,7 @@ svg
   border-radius: 16px;
   display: block;
   
-  width: 80%;
+  width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -1912,5 +1932,5 @@ svg
 
 .contact-icons-positions
 {
-    padding-left: 25em;
+    padding-left: 15em;
 }
