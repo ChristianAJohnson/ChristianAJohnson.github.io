@@ -102,6 +102,82 @@ p:last-child {
     line-height: 1;
 }
 
+#headline {
+    /* font-size: 30px; */
+    /* margin-top: 1in; */
+    margin-left: 20px;
+    padding-left: 5in;
+    padding-right: 15px;
+    /* padding-bottom: 1.5in; */
+}
+
+ul a:link{
+color: lightblue;
+/* color: purple;  */
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
+ul a:visited{
+color: lightblue; 
+/* font-size: 16px;  */
+text-decoration: none; 
+/* font-family: Helvetica;  */
+}
+
+ul.rails-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+}
+
+ul.rails-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+}
+
+ul.ship-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* list-style-type: disc; */
+}
+
+ul.ship-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* list-style-type: disc; */
+}
+
+ul.music-demo {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* border-style: dotted; */
+}
+
+ul.music-github {
+    border: 2px solid #ffffff;;
+    border-radius: 16px;
+    list-style-type: square;
+    width: 300px;
+    height: 50px;
+    /* border-style: dotted; */
+}
+
 a,
 a:hover,
 a:active,
@@ -444,9 +520,11 @@ body.videoopen {
     z-index: 100;
 }
 
-body.projects {
+.projectsBody {
     background: #ff1400;
+    color: #fff;
     padding-bottom: 0;
+    border-radius: 16px;
 }
 
 .projectListFirstRow {
@@ -857,9 +935,11 @@ body.slideopen {
     cursor: default;
 }
 
-body.info {
+.infoBody{
     background: #004153;
     color: #fff;
+    padding-bottom: 0;
+    border-radius: 16px;
 }
 
 .redText {
@@ -914,13 +994,19 @@ body.imprint {
     line-height: 1.1;
 }
 
-body.shop {
+.skillsBody {
     background: #5fffff;
+    color: #000;
+    /* color: #fff; */
+    padding-bottom: 0;
+    border-radius: 16px;
 }
 
-body.relax {
+.contactBody {
     background: #550081;
     color: #fff;
+    padding-bottom: 0;
+    border-radius: 16px;
 }
 
 .whiteTitle {
@@ -1532,4 +1618,319 @@ body.relax {
     body #ca_banner .accept {
         font-size: 15px;
     }
+}
+
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+
+/* The Modal (background) */
+#myProjects {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.project-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 16px;
+  display: block;
+  
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.projectclose {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.projectclose:hover,
+.projectclose:focus {
+  color: #000;
+  text-decoration: none;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+
+.project-modal-body {padding: 2px 16px;}
+
+/* The Modal (background) */
+#myInfo {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.info-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 16px;
+  display: block;
+  
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.infoclose {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.infoclose:hover,
+.infoclose:focus {
+  color: #000;
+  text-decoration: none;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.info-modal-body {padding: 2px 16px;}
+
+#mySkills {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.skills-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 16px;
+  display: block;
+  
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.skillsclose {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.skillsclose:hover,
+.skillsclose:focus {
+  color: #000;
+  text-decoration: none;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.skills-modal-body {padding: 2px 16px;}
+
+/* .skills-icons
+{
+    width:  128px;
+    height: 181px;
+} */
+
+.skills-icons
+{
+    width: 128px;
+    height: 128px;
+}
+
+svg
+{
+    width: 128px;
+    height: 128px;  
+}
+
+.skills-icons-positions
+{
+    padding-left: 5em;
+}
+
+.skills-icons-text
+{
+    font-size: 15px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+span.skills-sinatra-text
+{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #000;
+  
+}
+
+/* .skills-sinatra
+{
+    margin-top: -20px;
+    padding-left: 4.5in;
+} */
+
+/* The Modal (background) */
+#myContact {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.contact-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  border: 1px solid #ccc;
+  
+  border-radius: 16px;
+  display: block;
+  
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.contactclose {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contactclose:hover,
+.contactclose:focus {
+  color: #000;
+  text-decoration: none;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+
+.contact-modal-body {padding: 2px 16px;}
+
+.contact-icons
+{
+    width:  100px;
+    height: 100px;
+}
+
+.contact-icons-positions
+{
+    padding-left: 15em;
 }
