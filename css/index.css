@@ -1685,7 +1685,12 @@ body.imprint {
 }
 
 
-.project-modal-body {padding: 2px 16px;}
+.project-modal-body
+{
+    padding: 2px 16px;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
 
 /* The Modal (background) */
 #myInfo {
